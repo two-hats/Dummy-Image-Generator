@@ -1,0 +1,10 @@
+image1,png,48,48,#FFCCCC,
+image2,gif,96,96,#CCFFCC,
+image3,jpg,196,196,,(A warning icon)
+image4,svg,32,72,#CCCCFF,
+image5,png,72,32,,(A device illustration)
+image6,gif,200,100,,
+image7,jpg,100,200,,
+image8,svg,400,300,,
+image9,png,400,300,,
+image10,gif,400,300,,
