@@ -1,48 +1,36 @@
-# Quick-exporter.jsx
-**You can export images more quickly!!**
+# Dummy Image Generator.jsx
+**Export plenty of dummy images**
 
-
-This is a script for Adobe illustrator. It allows us to export images more quickly as usual.
-There are a few ways to export image in illustrator by default. However, these ways take long time to do it, so I decided to develop this script.
+Some developers might have experienced that they needed to make plenty of dummy images.
+This could be one of the most troublesome tasks.
+So I decided to make this script to solve the issue.
 
 ## Installation
-Please put this script file and the "img" folder into the script folder of illustrator.
+Put this script file into the script folder of illustrator.
 
 For example in CC 2014.
 ```
-Windows: C:\Program Files\Adobe\Adobe lllustratorCC2014\Presets\[language]\Scripts\
-```
-```
+Windows: C:\Program Files\Adobe\Adobe lllustratorCC2014\Presets\[language]\Scrip
+
 Mac OS: /Applications/Adobe lllustrator CC 2014/Presets/[language]/Scripts/
 ```
 
-It works in CS6, CC and CC 2014. I'm sure that it can also work in CS5.
+## How to use
+To utilize this script, make in advance a csv file listing images you want.
+The csv file should follow the following order.
+In more detail, please refer to the sample csv file that comes with this script.
 
-## Usage
-You execute this script, then a modeless dialog will appear.
-![Qucik-exporter main panel](https://raw.github.com/wiki/two-hats/Quick-exporter/images/20150801-01.png)
+1. File Name
+2. Extentions(png, gif, jpg, or svg)
+3. Width(px)
+4. Height(px)
+5. Background Color(Optional)
+6. Text(Optional)
 
-1. Select an extension (PNG/GIF/SVG) you want to export to in advance.
-2. Select artworks you require.
-3. Push the export button.
+Once you run the script, you will be asked which file you will use.
+After that, you will find a folder, which contains the images, in the same layer.
 
-That's it. An "images" folder which contains image files will be created on your desktop.
-
-### Options
-It has a few options which are useful for making applications and websites.
-![Qucik-exporter option panel](https://raw.github.com/wiki/two-hats/Quick-exporter/images/20150801-02.png)
-
-* Trimming and adding spaces
-* Exporting for iOS / Android
-* Giving name
-* Indicating their positions and size
-* A list of images
-
-
-## See more details
-If you want to know more and  can understand Japanese, please access to the article below. I wrote an explanation about how to use it more detail in Japanese.
-
-[illustrator向け画像書き出しスクリプト](http://2-hats.hateblo.jp/entry/2015/07/27/120859)
+Please note that it takes a quite long time to generate all images, if you want a number of them.
 
 ## Licence
 This software is released under the MIT License, see LICENSE.txt.
